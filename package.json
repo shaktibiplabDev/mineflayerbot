@@ -1,0 +1,35 @@
+{
+  "name": "mineflayerbot",
+  "version": "1.0.0",
+  "description": "A custom minecraft bot created using mineflayer which you can control using a discord bot",
+  "main": "src/main.js",
+  "scripts": {
+    "register": "node src/register.js",
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaktibiplabDev/mineflayerbot.git"
+  },
+  "keywords": [
+    "minecraft",
+    "discord.js",
+    "mineflayer"
+  ],
+  "author": "shaktibiplabDev",
+  "license": "ISC",
+  "dependencies": {
+    "@discord/embedded-app-sdk": "^1.2.0",
+    "axios": "^1.6.8",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "mineflayer": "^4.20.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-pvp": "^1.3.2",
+    "vec3": "^0.1.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
